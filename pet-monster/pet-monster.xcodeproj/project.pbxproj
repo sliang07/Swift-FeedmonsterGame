@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481491221C6440C700C7075A /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481491211C6440C700C7075A /* assets.xcassets */; };
+		481491241C652D9300C7075A /* dragFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481491231C652D9300C7075A /* dragFile.swift */; };
+		481491261C656DDA00C7075A /* MonsterIMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481491251C656DDA00C7075A /* MonsterIMG.swift */; };
+		4814912C1C6BF55A00C7075A /* kirby-skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 481491271C6BF55A00C7075A /* kirby-skull.wav */; };
+		4814912D1C6BF55A00C7075A /* kirby-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 481491281C6BF55A00C7075A /* kirby-music.mp3 */; };
+		4814912E1C6BF55A00C7075A /* kirby-candy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 481491291C6BF55A00C7075A /* kirby-candy.wav */; };
+		4814912F1C6BF55A00C7075A /* kirby-bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4814912A1C6BF55A00C7075A /* kirby-bite.wav */; };
+		481491301C6BF55A00C7075A /* kirby-death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4814912B1C6BF55A00C7075A /* kirby-death.mp3 */; };
+		4821CE741C63D9C80066C60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821CE731C63D9C80066C60B /* AppDelegate.swift */; };
+		4821CE761C63D9C80066C60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821CE751C63D9C80066C60B /* ViewController.swift */; };
+		4821CE791C63D9C80066C60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4821CE771C63D9C80066C60B /* Main.storyboard */; };
+		4821CE7E1C63D9C80066C60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4821CE7C1C63D9C80066C60B /* LaunchScreen.storyboard */; };
+		48BBFC331C77EAC400836C62 /* monsterIMG-bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BBFC321C77EAC400836C62 /* monsterIMG-bird.swift */; };
+		48BBFC371C78EBE000836C62 /* ViewControllerAlt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BBFC361C78EBE000836C62 /* ViewControllerAlt.swift */; };
+		48BBFC391C7A9E9900836C62 /* kirby-oneup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48BBFC381C7A9E9900836C62 /* kirby-oneup.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481491211C6440C700C7075A /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = ../assets.xcassets; sourceTree = "<group>"; };
+		481491231C652D9300C7075A /* dragFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragFile.swift; sourceTree = "<group>"; };
+		481491251C656DDA00C7075A /* MonsterIMG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterIMG.swift; sourceTree = "<group>"; };
+		481491271C6BF55A00C7075A /* kirby-skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kirby-skull.wav"; sourceTree = "<group>"; };
+		481491281C6BF55A00C7075A /* kirby-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kirby-music.mp3"; sourceTree = "<group>"; };
+		481491291C6BF55A00C7075A /* kirby-candy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kirby-candy.wav"; sourceTree = "<group>"; };
+		4814912A1C6BF55A00C7075A /* kirby-bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kirby-bite.wav"; sourceTree = "<group>"; };
+		4814912B1C6BF55A00C7075A /* kirby-death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kirby-death.mp3"; sourceTree = "<group>"; };
+		4821CE701C63D9C80066C60B /* pet-monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pet-monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4821CE731C63D9C80066C60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4821CE751C63D9C80066C60B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4821CE781C63D9C80066C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4821CE7D1C63D9C80066C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4821CE7F1C63D9C80066C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BBFC321C77EAC400836C62 /* monsterIMG-bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "monsterIMG-bird.swift"; sourceTree = "<group>"; };
+		48BBFC361C78EBE000836C62 /* ViewControllerAlt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAlt.swift; sourceTree = "<group>"; };
+		48BBFC381C7A9E9900836C62 /* kirby-oneup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kirby-oneup.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4821CE6D1C63D9C80066C60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4821CE671C63D9C80066C60B = {
+			isa = PBXGroup;
+			children = (
+				4821CE721C63D9C80066C60B /* pet-monster */,
+				4821CE711C63D9C80066C60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4821CE711C63D9C80066C60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4821CE701C63D9C80066C60B /* pet-monster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4821CE721C63D9C80066C60B /* pet-monster */ = {
+			isa = PBXGroup;
+			children = (
+				481491271C6BF55A00C7075A /* kirby-skull.wav */,
+				481491281C6BF55A00C7075A /* kirby-music.mp3 */,
+				481491291C6BF55A00C7075A /* kirby-candy.wav */,
+				4814912A1C6BF55A00C7075A /* kirby-bite.wav */,
+				4814912B1C6BF55A00C7075A /* kirby-death.mp3 */,
+				48BBFC381C7A9E9900836C62 /* kirby-oneup.wav */,
+				481491211C6440C700C7075A /* assets.xcassets */,
+				4821CE731C63D9C80066C60B /* AppDelegate.swift */,
+				48BBFC361C78EBE000836C62 /* ViewControllerAlt.swift */,
+				4821CE751C63D9C80066C60B /* ViewController.swift */,
+				481491231C652D9300C7075A /* dragFile.swift */,
+				4821CE771C63D9C80066C60B /* Main.storyboard */,
+				4821CE7C1C63D9C80066C60B /* LaunchScreen.storyboard */,
+				4821CE7F1C63D9C80066C60B /* Info.plist */,
+				481491251C656DDA00C7075A /* MonsterIMG.swift */,
+				48BBFC321C77EAC400836C62 /* monsterIMG-bird.swift */,
+			);
+			path = "pet-monster";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4821CE6F1C63D9C80066C60B /* pet-monster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4821CE821C63D9C80066C60B /* Build configuration list for PBXNativeTarget "pet-monster" */;
+			buildPhases = (
+				4821CE6C1C63D9C80066C60B /* Sources */,
+				4821CE6D1C63D9C80066C60B /* Frameworks */,
+				4821CE6E1C63D9C80066C60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pet-monster";
+			productName = "pet-monster";
+			productReference = 4821CE701C63D9C80066C60B /* pet-monster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4821CE681C63D9C80066C60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Stanley;
+				TargetAttributes = {
+					4821CE6F1C63D9C80066C60B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4821CE6B1C63D9C80066C60B /* Build configuration list for PBXProject "pet-monster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4821CE671C63D9C80066C60B;
+			productRefGroup = 4821CE711C63D9C80066C60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4821CE6F1C63D9C80066C60B /* pet-monster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4821CE6E1C63D9C80066C60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4814912E1C6BF55A00C7075A /* kirby-candy.wav in Resources */,
+				48BBFC391C7A9E9900836C62 /* kirby-oneup.wav in Resources */,
+				481491301C6BF55A00C7075A /* kirby-death.mp3 in Resources */,
+				4814912D1C6BF55A00C7075A /* kirby-music.mp3 in Resources */,
+				4814912C1C6BF55A00C7075A /* kirby-skull.wav in Resources */,
+				4821CE7E1C63D9C80066C60B /* LaunchScreen.storyboard in Resources */,
+				4821CE791C63D9C80066C60B /* Main.storyboard in Resources */,
+				481491221C6440C700C7075A /* assets.xcassets in Resources */,
+				4814912F1C6BF55A00C7075A /* kirby-bite.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4821CE6C1C63D9C80066C60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BBFC371C78EBE000836C62 /* ViewControllerAlt.swift in Sources */,
+				481491261C656DDA00C7075A /* MonsterIMG.swift in Sources */,
+				48BBFC331C77EAC400836C62 /* monsterIMG-bird.swift in Sources */,
+				4821CE761C63D9C80066C60B /* ViewController.swift in Sources */,
+				481491241C652D9300C7075A /* dragFile.swift in Sources */,
+				4821CE741C63D9C80066C60B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4821CE771C63D9C80066C60B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4821CE781C63D9C80066C60B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4821CE7C1C63D9C80066C60B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4821CE7D1C63D9C80066C60B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4821CE801C63D9C80066C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4821CE811C63D9C80066C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4821CE831C63D9C80066C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pet-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanley.pet-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4821CE841C63D9C80066C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pet-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanley.pet-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821CE6B1C63D9C80066C60B /* Build configuration list for PBXProject "pet-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4821CE801C63D9C80066C60B /* Debug */,
+				4821CE811C63D9C80066C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821CE821C63D9C80066C60B /* Build configuration list for PBXNativeTarget "pet-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4821CE831C63D9C80066C60B /* Debug */,
+				4821CE841C63D9C80066C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4821CE681C63D9C80066C60B /* Project object */;
+}
